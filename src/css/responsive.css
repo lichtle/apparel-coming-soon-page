@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+  main.container-principal {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  picture img {
+    width: 100vw;
+    margin: 11rem 0 10rem 0;
+  }
+
+  img.logo {
+    top: 4rem;
+    left: 4rem;
+  }
+
+  section.anuncio {
+    padding: 0 5rem;
+    margin-bottom: 8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1.titulo {
+    font-size: 5rem;
+  }
+
+  .email-input {
+    width: 23rem;
+    padding: 1.5rem 3rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 2.5rem;
+  }
+
+  button.send-btn {
+    right: 0;
+  }
+}

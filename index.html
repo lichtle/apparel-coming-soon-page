@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,11 +36,7 @@
           launch deals.
         </p>
         <div class="input-container">
-          <input
-            class="email-input"
-            type="text"
-            placeholder="Email Address"
-          />
+          <input class="email-input" type="text" placeholder="Email Address" />
           <img
             class="icone-erro"
             src="src/images/icon-error.svg"
@@ -51,16 +48,17 @@
               alt="Botão de enviar"
             />
           </button>
-          <p class="mensagem-erro">
-            Please provide a valid email.
-          </p>
+          <p class="mensagem-erro">Please provide a valid email.</p>
         </div>
       </section>
-      <img
-        class="imagem-modelo"
-        src="src/images/hero-desktop.jpg"
-        alt="Imagem da modelo"
-      />
+      <picture>
+        <source
+          media="(min-width: 576px)"
+          srcset="src/images/hero-desktop.jpg"
+          type="image/jpg"
+        />
+        <img class="imagem-modelo" src="src/images/hero-mobile.jpg" alt="Foto da modelo" />
+      </picture>
     </main>
     <!-- Photo by: Godisable Jacob at Pexels (https://www.pexels.com/pt-br/foto/mulher-sentada-no-sofa-cama-usando-oculos-de-sol-965324/)-->
     <script src="src/javascript/index.js"></script>
