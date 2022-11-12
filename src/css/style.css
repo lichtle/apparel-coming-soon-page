@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red;
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
   background-image: url("../images/bg-image.svg");

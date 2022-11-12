@@ -1,11 +1,15 @@
 @media (max-width: 576px) {
+  body {
+    width: 100vw;
+  }
+
   main.container-principal {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
 
-  picture img {
+  picture {
     width: 100vw;
     margin: 11rem 0 10rem 0;
   }
@@ -16,7 +20,7 @@
   }
 
   section.anuncio {
-    padding: 0 5rem;
+    padding: 0;
     margin-bottom: 8rem;
     justify-content: center;
     align-items: center;
