@@ -9,8 +9,8 @@
     align-items: center;
   }
 
-  picture {
-    width: 100vw;
+  picture .imagem-modelo {
+    min-width: 100vw;
     margin: 11rem 0 10rem 0;
   }
 
